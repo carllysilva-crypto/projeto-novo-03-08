@@ -1,9 +1,9 @@
 /*Paleta suave com fundo claro e texturo */
 :root{
-    --cor-fundo:#20c2df;
-    --cor-cabecalho:#a8dcfa;
-    --cor-texto:hsl(0, 60%, 5%);
-    --cor-rodape: #2a8a91;
+    --cor-fundo:#ebd8c7;
+    --cor-cabecalho:#794f2e;
+    --cor-texto:hsl(24, 84%, 12%);
+    --cor-rodape: #644a22;
 }
 
 body {
