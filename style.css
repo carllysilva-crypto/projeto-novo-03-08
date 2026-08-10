@@ -1,5 +1,48 @@
 /*Paleta suave com fundo claro e texturo */
 :root{
-    --cor-fundo:#326305;
-    
+    --cor-fundo:#20c2df;
+    --cor-cabecalho:#a8dcfa;
+    --cor-texto:hsl(0, 60%, 5%);
+    --cor-rodape: #2a8a91;
+}
+
+body {
+    margin:0;
+    font-family:'Segoe UI', sans-serif;
+    background-color: 
+var(--cor-fundo);
+    color: var(--cor-texto)
+}
+
+/*Estiliza o cabecalho*/
+header{
+    background-color:
+var(--cor-cabecalho)
+    padding:10px;
+    text-align:center;
+}
+
+header img{
+    max: width 100%;
+    height:auto;
+    border-radius:10px;
+}
+
+/*Area principal do conteudo*/
+main{
+    padding:20px;
+    text-align:justify;
+}
+
+main h1 {
+    color:var(--cor-cabecalho)
+}
+/*Rodape com assinatura*/
+footer{
+    background-color:
+var(--cor-rodape);
+    color:#1e328d;
+    text-align:center;
+    padding:15px;
+    font-style:italic;
 }
